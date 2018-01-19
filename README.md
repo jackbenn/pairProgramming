@@ -4,7 +4,7 @@ If a and b are two distinct students in a cohort with n students, then a and b a
 
 Example: 
 ```
-$ python src/pairer.py etc/cohort3 17
+$ python src/pairer.py etc/seattle3 17
 Recommended partnerships - day 17 of 17:
 Alexander, Timothy
 Bryan, Tetyana
