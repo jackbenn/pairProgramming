@@ -152,7 +152,7 @@ if __name__ == "__main__":
         sys.exit()
 
     pairing = prettify(p.get_pairing(day))
-    print("Recommended partnerships - day {0} of {1}:".format(day, len(student)-1))
+    print("Recommended partnerships - Seed {0} of {1}:".format(day, len(student)-1))
     for tup in pairing:
         print(", ".join([ student[a] for a in tup ]))
 
